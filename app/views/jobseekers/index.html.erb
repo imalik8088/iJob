@@ -1,0 +1,29 @@
+<h1>Listing jobseekers</h1>
+
+<table>
+  <tr>
+    <th>Last name</th>
+    <th>First name</th>
+    <th>Status</th>
+    <th>Self description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @jobseekers.each do |jobseeker| %>
+  <tr>
+    <td><%= jobseeker.last_name %></td>
+    <td><%= jobseeker.first_name %></td>
+    <td><%= jobseeker.status %></td>
+    <td><%= jobseeker.self_description %></td>
+    <td><%= link_to 'Show', jobseeker %></td>
+    <td><%= link_to 'Edit', edit_jobseeker_path(jobseeker) %></td>
+    <td><%= link_to 'Destroy', jobseeker, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Jobseeker', new_jobseeker_path %>

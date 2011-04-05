@@ -1,0 +1,41 @@
+<%= form_for(@bussiness_agent) do |f| %>
+  <% if @bussiness_agent.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bussiness_agent.errors.count, "error") %> prohibited this bussiness_agent from being saved:</h2>
+
+      <ul>
+      <% @bussiness_agent.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :company %><br />
+    <%= f.text_field :company %>
+  </div>
+  <div class="field">
+    <%= f.label :street %><br />
+    <%= f.text_field :street %>
+  </div>
+  <div class="field">
+    <%= f.label :zipcode %><br />
+    <%= f.text_field :zipcode %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :sector %><br />
+    <%= f.text_field :sector %>
+  </div>
+  <div class="field">
+    <%= f.label :noe %><br />
+    <%= f.text_field :noe %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

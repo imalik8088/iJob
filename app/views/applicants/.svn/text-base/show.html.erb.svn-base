@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Free text:</b>
+  <%= @applicant.free_text %>
+</p>
+
+<p>
+  <b>Can rails:</b>
+  <%= @applicant.can_rails %>
+</p>
+
+<p>
+  <b>Can ruby:</b>
+  <%= @applicant.can_ruby %>
+</p>
+
+<p>
+  <b>Can svn:</b>
+  <%= @applicant.can_svn %>
+</p>
+
+<p>
+  <b>First name:</b>
+  <%= @applicant.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @applicant.last_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_applicant_path(@applicant) %> |
+<%= link_to 'Back', applicants_path %>

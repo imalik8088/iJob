@@ -1,0 +1,33 @@
+<h1>Listing applicants</h1>
+
+<table>
+  <tr>
+    <th>Free text</th>
+    <th>Can rails</th>
+    <th>Can ruby</th>
+    <th>Can svn</th>
+    <th>First name</th>
+    <th>Last name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @applicants.each do |applicant| %>
+  <tr>
+    <td><%= applicant.free_text %></td>
+    <td><%= applicant.can_rails %></td>
+    <td><%= applicant.can_ruby %></td>
+    <td><%= applicant.can_svn %></td>
+    <td><%= applicant.first_name %></td>
+    <td><%= applicant.last_name %></td>
+    <td><%= link_to 'Show', applicant %></td>
+    <td><%= link_to 'Edit', edit_applicant_path(applicant) %></td>
+    <td><%= link_to 'Destroy', applicant, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Applicant', new_applicant_path %>

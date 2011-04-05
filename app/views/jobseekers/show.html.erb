@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Last name:</b>
+  <%= @jobseeker.last_name %>
+</p>
+
+<p>
+  <b>First name:</b>
+  <%= @jobseeker.first_name %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @jobseeker.status %>
+</p>
+
+<p>
+  <b>Self description:</b>
+  <%= @jobseeker.self_description %>
+</p>
+
+
+<%= link_to 'Edit', edit_jobseeker_path(@jobseeker) %> |
+<%= link_to 'Back', jobseekers_path %>

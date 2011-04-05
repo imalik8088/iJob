@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/config/initializers/inflections.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/config/initializers/session_store.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/config/initializers/secret_token.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/config/initializers/backtrace_silencers.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/config/initializers/mime_types.rb
+END

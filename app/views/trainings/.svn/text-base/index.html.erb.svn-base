@@ -1,0 +1,29 @@
+<h1>Listing trainings</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Location</th>
+    <th>Time</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @trainings.each do |training| %>
+  <tr>
+    <td><%= training.title %></td>
+    <td><%= training.description %></td>
+    <td><%= training.location %></td>
+    <td><%= training.happens_at %></td>
+    <td><%= link_to 'Show', training %></td>
+    <td><%= link_to 'Edit', edit_training_path(training) %></td>
+    <td><%= link_to 'Destroy', training, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Training', new_training_path %>

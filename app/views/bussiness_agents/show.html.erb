@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Company:</b>
+  <%= @bussiness_agent.company %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%= @bussiness_agent.street %>
+</p>
+
+<p>
+  <b>Zipcode:</b>
+  <%= @bussiness_agent.zipcode %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @bussiness_agent.city %>
+</p>
+
+<p>
+  <b>Sector:</b>
+  <%= @bussiness_agent.sector %>
+</p>
+
+<p>
+  <b>Number of employees:</b>
+  <%= @bussiness_agent.noe %>
+</p>
+
+
+<%= link_to 'Edit', edit_bussiness_agent_path(@bussiness_agent) %> |
+<%= link_to 'Back', bussiness_agents_path %>

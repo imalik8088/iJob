@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/fbi/ewam/team7/!svn/ver/62/iJob/app/views/jobs
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fbi/ewam/team7/!svn/ver/39/iJob/app/views/jobs/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/fbi/ewam/team7/!svn/ver/62/iJob/app/views/jobs/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/fbi/ewam/team7/!svn/ver/39/iJob/app/views/jobs/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fbi/ewam/team7/!svn/ver/62/iJob/app/views/jobs/show.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/fbi/ewam/team7/!svn/ver/62/iJob/app/views/jobs/_form.html.erb
+END

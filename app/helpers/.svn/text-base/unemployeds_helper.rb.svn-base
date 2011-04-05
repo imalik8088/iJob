@@ -1,0 +1,2 @@
+module UnemployedsHelper
+end

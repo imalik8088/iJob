@@ -1,0 +1,61 @@
+10
+
+dir
+86
+https://subversion.h-da.de/svn/fbi/ewam/team7/iJob/app/views
+https://subversion.h-da.de/svn/fbi/ewam/team7
+
+
+
+2010-12-08T18:01:24.440934Z
+66
+stmasacc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7a7e57f0-60d7-4c54-9e1c-d6ef7621fe09
+
+bussiness_agents
+dir
+
+layouts
+dir
+
+agents
+dir
+
+users
+dir
+
+sectors
+dir
+
+unemployeds
+dir
+
+jobseekers
+dir
+
+jobs
+dir
+
+applicants
+dir
+
+companies
+dir
+
+trainings
+dir
+

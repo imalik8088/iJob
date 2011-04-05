@@ -1,0 +1,33 @@
+<h1>Listing bussiness_agents</h1>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Street</th>
+    <th>Zipcode</th>
+    <th>City</th>
+    <th>Sector</th>
+    <th>Number of Employee</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @bussiness_agents.each do |bussiness_agent| %>
+  <tr>
+    <td><%= bussiness_agent.company %></td>
+    <td><%= bussiness_agent.street %></td>
+    <td><%= bussiness_agent.zipcode %></td>
+    <td><%= bussiness_agent.city %></td>
+    <td><%= bussiness_agent.sector %></td>
+    <td><%= bussiness_agent.noe %></td>
+    <td><%= link_to 'Show', bussiness_agent %></td>
+    <td><%= link_to 'Edit', edit_bussiness_agent_path(bussiness_agent) %></td>
+    <td><%= link_to 'Destroy', bussiness_agent, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bussiness agent', new_bussiness_agent_path %>

@@ -1,0 +1,31 @@
+<h1>Listing unemployeds</h1>
+
+<table>
+  <tr>
+    <th>Username</th>
+    <th>Password</th>
+    <th>Status</th>
+    <th>First name</th>
+    <th>Last name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @unemployeds.each do |unemployed| %>
+  <tr>
+    <td><%= unemployed.username %></td>
+    <td><%= unemployed.password %></td>
+    <td><%= unemployed.status %></td>
+    <td><%= unemployed.first_name %></td>
+    <td><%= unemployed.last_name %></td>
+    <td><%= link_to 'Show', unemployed %></td>
+    <td><%= link_to 'Edit', edit_unemployed_path(unemployed) %></td>
+    <td><%= link_to 'Destroy', unemployed, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Unemployed', new_unemployed_path %>

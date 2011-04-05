@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fbi/ewam/team7/!svn/ver/86/iJob/app/controllers
+END
+jobseekers_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/fbi/ewam/team7/!svn/ver/49/iJob/app/controllers/jobseekers_controller.rb
+END
+jobs_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fbi/ewam/team7/!svn/ver/62/iJob/app/controllers/jobs_controller.rb
+END
+applicants_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/fbi/ewam/team7/!svn/ver/66/iJob/app/controllers/applicants_controller.rb
+END
+companies_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fbi/ewam/team7/!svn/ver/86/iJob/app/controllers/companies_controller.rb
+END
+trainings_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fbi/ewam/team7/!svn/ver/47/iJob/app/controllers/trainings_controller.rb
+END
+bussiness_agents_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fbi/ewam/team7/!svn/ver/39/iJob/app/controllers/bussiness_agents_controller.rb
+END
+agents_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/fbi/ewam/team7/!svn/ver/57/iJob/app/controllers/agents_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fbi/ewam/team7/!svn/ver/45/iJob/app/controllers/users_controller.rb
+END
+sectors_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fbi/ewam/team7/!svn/ver/56/iJob/app/controllers/sectors_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/app/controllers/application_controller.rb
+END
+unemployeds_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fbi/ewam/team7/!svn/ver/33/iJob/app/controllers/unemployeds_controller.rb
+END

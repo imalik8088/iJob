@@ -1,0 +1,45 @@
+<%= form_for(@applicant) do |f| %>
+  <% if @applicant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@applicant.errors.count, "error") %> prohibited this applicant from being saved:</h2>
+
+      <ul>
+      <% @applicant.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :free_text %><br />
+    <%= f.text_area :free_text %>
+  </div>
+  <div class="field">
+    <%= f.label :can_rails %><br />
+    <%= f.check_box :can_rails %>
+  </div>
+  <div class="field">
+    <%= f.label :can_ruby %><br />
+    <%= f.check_box :can_ruby %>
+  </div>
+  <div class="field">
+    <%= f.label :can_svn %><br />
+    <%= f.check_box :can_svn %>
+  </div>
+  <div class="field">
+    <%= f.label :first_name %><br />
+    <%= f.text_field :first_name %>
+  </div>
+  <div class="field">
+    <%= f.label :last_name %><br />
+    <%= f.text_field :last_name %>
+  </div>
+  <div class="field">
+    <%= f.label :jobseekers %><br />
+    <%= f.collection_select :jobseeker_id, @jobseekers_all, :id, :last_name %><br />
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Username:</b>
+  <%= @unemployed.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%= @unemployed.password %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @unemployed.status %>
+</p>
+
+<p>
+  <b>First name:</b>
+  <%= @unemployed.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @unemployed.last_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_unemployed_path(@unemployed) %> |
+<%= link_to 'Back', unemployeds_path %>

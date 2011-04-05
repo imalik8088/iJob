@@ -1,0 +1,2058 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Ijob C0 Coverage Information - RCov</title>
+    <link href="screen.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="print.css" media="print" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="rcov.js"></script>
+  </head>
+  <body>
+    <h1>Ijob C0 Coverage Information - RCov</h1>
+    
+
+    <noscript><style type="text/css">.if_js { display:none; }</style></noscript>
+
+    <div class="filters if_js">
+      <fieldset>
+        <label>File Filter:</label>
+        <select id="file_filter" class="filter">
+          <option value="all_files">Show All</option>
+          <option value="agents">agents/</option><option value="app">app/</option><option value="applicants">applicants/</option><option value="bussiness_agents">bussiness_agents/</option><option value="companies">companies/</option><option value="controllers">controllers/</option><option value="helpers">helpers/</option><option value="jobs">jobs/</option><option value="jobseekers">jobseekers/</option><option value="models">models/</option><option value="requests">requests/</option><option value="routing">routing/</option><option value="sectors">sectors/</option><option value="spec">spec/</option><option value="trainings">trainings/</option><option value="unemployeds">unemployeds/</option><option value="users">users/</option><option value="views">views/</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label>Code Coverage Threshold:</label>
+        <select id="coverage_filter" class="filter">
+          <option value="all_coverage">Show All</option>
+          <option value="10">&lt; 10% Coverage</option><option value="20">&lt; 20% Coverage</option><option value="30">&lt; 30% Coverage</option><option value="40">&lt; 40% Coverage</option><option value="50">&lt; 50% Coverage</option><option value="60">&lt; 60% Coverage</option><option value="70">&lt; 70% Coverage</option><option value="80">&lt; 80% Coverage</option><option value="90">&lt; 90% Coverage</option><option value="100">&lt; 100% Coverage</option>
+          <option value="110">= 100% Coverage</option>
+        </select>
+      </fieldset>
+    </div>
+    
+    <div class="report_table_wrapper">
+      <table class='report' id='report_table'>
+        <thead>
+          <tr>
+            <th class="left_align">Name</th>
+            <th class="right_align">Total Lines</th>
+            <th class="right_align">Lines of Code</th>
+            <th class="left_align">Total Coverage</th>
+            <th class="left_align">Code Coverage</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td class="left_align">TOTAL</td>
+            <td class='right_align'><tt>4102</tt></td>
+            <td class='right_align'><tt>3129</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.03%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class='coverage_total'>90.99%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:91px"></div>
+            <div class="uncovered" style="width:9px"></div>
+          </div></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          
+            <tr class="all_files all_coverage 110 app controllers even">
+              <td class="left_align"><a href="app-controllers-agents_controller_rb.html">app/controllers/agents_controller.rb</a></td>
+              <td class='right_align'><tt>83</tt></td>
+              <td class='right_align'><tt>58</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers odd">
+              <td class="left_align"><a href="app-controllers-applicants_controller_rb.html">app/controllers/applicants_controller.rb</a></td>
+              <td class='right_align'><tt>90</tt></td>
+              <td class='right_align'><tt>63</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers even">
+              <td class="left_align"><a href="app-controllers-application_controller_rb.html">app/controllers/application_controller.rb</a></td>
+              <td class='right_align'><tt>3</tt></td>
+              <td class='right_align'><tt>3</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers odd">
+              <td class="left_align"><a href="app-controllers-bussiness_agents_controller_rb.html">app/controllers/bussiness_agents_controller.rb</a></td>
+              <td class='right_align'><tt>83</tt></td>
+              <td class='right_align'><tt>58</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers even">
+              <td class="left_align"><a href="app-controllers-companies_controller_rb.html">app/controllers/companies_controller.rb</a></td>
+              <td class='right_align'><tt>96</tt></td>
+              <td class='right_align'><tt>68</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 100 app controllers odd">
+              <td class="left_align"><a href="app-controllers-jobs_controller_rb.html">app/controllers/jobs_controller.rb</a></td>
+              <td class='right_align'><tt>90</tt></td>
+              <td class='right_align'><tt>63</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.22%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.48%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:90px"></div>
+            <div class="uncovered" style="width:10px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers even">
+              <td class="left_align"><a href="app-controllers-jobseekers_controller_rb.html">app/controllers/jobseekers_controller.rb</a></td>
+              <td class='right_align'><tt>83</tt></td>
+              <td class='right_align'><tt>58</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers odd">
+              <td class="left_align"><a href="app-controllers-sectors_controller_rb.html">app/controllers/sectors_controller.rb</a></td>
+              <td class='right_align'><tt>83</tt></td>
+              <td class='right_align'><tt>58</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers even">
+              <td class="left_align"><a href="app-controllers-trainings_controller_rb.html">app/controllers/trainings_controller.rb</a></td>
+              <td class='right_align'><tt>83</tt></td>
+              <td class='right_align'><tt>58</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers odd">
+              <td class="left_align"><a href="app-controllers-unemployeds_controller_rb.html">app/controllers/unemployeds_controller.rb</a></td>
+              <td class='right_align'><tt>83</tt></td>
+              <td class='right_align'><tt>58</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app controllers even">
+              <td class="left_align"><a href="app-controllers-users_controller_rb.html">app/controllers/users_controller.rb</a></td>
+              <td class='right_align'><tt>83</tt></td>
+              <td class='right_align'><tt>58</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers odd">
+              <td class="left_align"><a href="app-helpers-agents_helper_rb.html">app/helpers/agents_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers even">
+              <td class="left_align"><a href="app-helpers-applicants_helper_rb.html">app/helpers/applicants_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers odd">
+              <td class="left_align"><a href="app-helpers-application_helper_rb.html">app/helpers/application_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers even">
+              <td class="left_align"><a href="app-helpers-bussiness_agents_helper_rb.html">app/helpers/bussiness_agents_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers odd">
+              <td class="left_align"><a href="app-helpers-companies_helper_rb.html">app/helpers/companies_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers even">
+              <td class="left_align"><a href="app-helpers-jobs_helper_rb.html">app/helpers/jobs_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers odd">
+              <td class="left_align"><a href="app-helpers-jobseekers_helper_rb.html">app/helpers/jobseekers_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers even">
+              <td class="left_align"><a href="app-helpers-sectors_helper_rb.html">app/helpers/sectors_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers odd">
+              <td class="left_align"><a href="app-helpers-trainings_helper_rb.html">app/helpers/trainings_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers even">
+              <td class="left_align"><a href="app-helpers-unemployeds_helper_rb.html">app/helpers/unemployeds_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app helpers odd">
+              <td class="left_align"><a href="app-helpers-users_helper_rb.html">app/helpers/users_helper.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models even">
+              <td class="left_align"><a href="app-models-agent_rb.html">app/models/agent.rb</a></td>
+              <td class='right_align'><tt>3</tt></td>
+              <td class='right_align'><tt>3</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models odd">
+              <td class="left_align"><a href="app-models-applicant_rb.html">app/models/applicant.rb</a></td>
+              <td class='right_align'><tt>16</tt></td>
+              <td class='right_align'><tt>13</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models even">
+              <td class="left_align"><a href="app-models-bussiness_agent_rb.html">app/models/bussiness_agent.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models odd">
+              <td class="left_align"><a href="app-models-company_rb.html">app/models/company.rb</a></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class='right_align'><tt>7</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models even">
+              <td class="left_align"><a href="app-models-job_rb.html">app/models/job.rb</a></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models odd">
+              <td class="left_align"><a href="app-models-jobseeker_rb.html">app/models/jobseeker.rb</a></td>
+              <td class='right_align'><tt>10</tt></td>
+              <td class='right_align'><tt>5</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models even">
+              <td class="left_align"><a href="app-models-sector_rb.html">app/models/sector.rb</a></td>
+              <td class='right_align'><tt>3</tt></td>
+              <td class='right_align'><tt>3</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models odd">
+              <td class="left_align"><a href="app-models-training_rb.html">app/models/training.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models even">
+              <td class="left_align"><a href="app-models-unemployed_rb.html">app/models/unemployed.rb</a></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class='right_align'><tt>2</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 app models odd">
+              <td class="left_align"><a href="app-models-user_rb.html">app/models/user.rb</a></td>
+              <td class='right_align'><tt>16</tt></td>
+              <td class='right_align'><tt>13</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers even">
+              <td class="left_align"><a href="spec-controllers-agents_controller_spec_rb.html">spec/controllers/agents_controller_spec.rb</a></td>
+              <td class='right_align'><tt>125</tt></td>
+              <td class='right_align'><tt>103</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 100 spec controllers odd">
+              <td class="left_align"><a href="spec-controllers-applicants_controller_spec_rb.html">spec/controllers/applicants_controller_spec.rb</a></td>
+              <td class='right_align'><tt>126</tt></td>
+              <td class='right_align'><tt>104</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>96.03%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:96px"></div>
+            <div class="uncovered" style="width:4px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>95.19%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:95px"></div>
+            <div class="uncovered" style="width:5px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers even">
+              <td class="left_align"><a href="spec-controllers-bussiness_agents_controller_spec_rb.html">spec/controllers/bussiness_agents_controller_spec.rb</a></td>
+              <td class='right_align'><tt>125</tt></td>
+              <td class='right_align'><tt>103</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers odd">
+              <td class="left_align"><a href="spec-controllers-companies_controller_spec_rb.html">spec/controllers/companies_controller_spec.rb</a></td>
+              <td class='right_align'><tt>139</tt></td>
+              <td class='right_align'><tt>114</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 100 spec controllers even">
+              <td class="left_align"><a href="spec-controllers-jobs_controller_spec_rb.html">spec/controllers/jobs_controller_spec.rb</a></td>
+              <td class='right_align'><tt>126</tt></td>
+              <td class='right_align'><tt>104</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>96.03%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:96px"></div>
+            <div class="uncovered" style="width:4px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>95.19%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:95px"></div>
+            <div class="uncovered" style="width:5px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers odd">
+              <td class="left_align"><a href="spec-controllers-jobseekers_controller_spec_rb.html">spec/controllers/jobseekers_controller_spec.rb</a></td>
+              <td class='right_align'><tt>125</tt></td>
+              <td class='right_align'><tt>103</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers even">
+              <td class="left_align"><a href="spec-controllers-sectors_controller_spec_rb.html">spec/controllers/sectors_controller_spec.rb</a></td>
+              <td class='right_align'><tt>125</tt></td>
+              <td class='right_align'><tt>103</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers odd">
+              <td class="left_align"><a href="spec-controllers-trainings_controller_spec_rb.html">spec/controllers/trainings_controller_spec.rb</a></td>
+              <td class='right_align'><tt>125</tt></td>
+              <td class='right_align'><tt>103</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers even">
+              <td class="left_align"><a href="spec-controllers-unemployeds_controller_spec_rb.html">spec/controllers/unemployeds_controller_spec.rb</a></td>
+              <td class='right_align'><tt>125</tt></td>
+              <td class='right_align'><tt>103</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec controllers odd">
+              <td class="left_align"><a href="spec-controllers-users_controller_spec_rb.html">spec/controllers/users_controller_spec.rb</a></td>
+              <td class='right_align'><tt>125</tt></td>
+              <td class='right_align'><tt>103</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers even">
+              <td class="left_align"><a href="spec-helpers-agents_helper_spec_rb.html">spec/helpers/agents_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers odd">
+              <td class="left_align"><a href="spec-helpers-applicants_helper_spec_rb.html">spec/helpers/applicants_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers even">
+              <td class="left_align"><a href="spec-helpers-bussiness_agents_helper_spec_rb.html">spec/helpers/bussiness_agents_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers odd">
+              <td class="left_align"><a href="spec-helpers-companies_helper_spec_rb.html">spec/helpers/companies_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers even">
+              <td class="left_align"><a href="spec-helpers-jobs_helper_spec_rb.html">spec/helpers/jobs_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers odd">
+              <td class="left_align"><a href="spec-helpers-jobseekers_helper_spec_rb.html">spec/helpers/jobseekers_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers even">
+              <td class="left_align"><a href="spec-helpers-sectors_helper_spec_rb.html">spec/helpers/sectors_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers odd">
+              <td class="left_align"><a href="spec-helpers-trainings_helper_spec_rb.html">spec/helpers/trainings_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers even">
+              <td class="left_align"><a href="spec-helpers-unemployeds_helper_spec_rb.html">spec/helpers/unemployeds_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec helpers odd">
+              <td class="left_align"><a href="spec-helpers-users_helper_spec_rb.html">spec/helpers/users_helper_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models even">
+              <td class="left_align"><a href="spec-models-agent_spec_rb.html">spec/models/agent_spec.rb</a></td>
+              <td class='right_align'><tt>5</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models odd">
+              <td class="left_align"><a href="spec-models-applicant_spec_rb.html">spec/models/applicant_spec.rb</a></td>
+              <td class='right_align'><tt>38</tt></td>
+              <td class='right_align'><tt>30</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models even">
+              <td class="left_align"><a href="spec-models-bussiness_agent_spec_rb.html">spec/models/bussiness_agent_spec.rb</a></td>
+              <td class='right_align'><tt>5</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models odd">
+              <td class="left_align"><a href="spec-models-company_spec_rb.html">spec/models/company_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models even">
+              <td class="left_align"><a href="spec-models-job_spec_rb.html">spec/models/job_spec.rb</a></td>
+              <td class='right_align'><tt>5</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models odd">
+              <td class="left_align"><a href="spec-models-jobseeker_spec_rb.html">spec/models/jobseeker_spec.rb</a></td>
+              <td class='right_align'><tt>39</tt></td>
+              <td class='right_align'><tt>29</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models even">
+              <td class="left_align"><a href="spec-models-sector_spec_rb.html">spec/models/sector_spec.rb</a></td>
+              <td class='right_align'><tt>5</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models odd">
+              <td class="left_align"><a href="spec-models-training_spec_rb.html">spec/models/training_spec.rb</a></td>
+              <td class='right_align'><tt>5</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models even">
+              <td class="left_align"><a href="spec-models-unemployed_spec_rb.html">spec/models/unemployed_spec.rb</a></td>
+              <td class='right_align'><tt>5</tt></td>
+              <td class='right_align'><tt>4</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec models odd">
+              <td class="left_align"><a href="spec-models-user_spec_rb.html">spec/models/user_spec.rb</a></td>
+              <td class='right_align'><tt>15</tt></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests even">
+              <td class="left_align"><a href="spec-requests-agents_spec_rb.html">spec/requests/agents_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests odd">
+              <td class="left_align"><a href="spec-requests-applicants_spec_rb.html">spec/requests/applicants_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests even">
+              <td class="left_align"><a href="spec-requests-bussiness_agents_spec_rb.html">spec/requests/bussiness_agents_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests odd">
+              <td class="left_align"><a href="spec-requests-companies_spec_rb.html">spec/requests/companies_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 60 70 80 90 100 spec requests even">
+              <td class="left_align"><a href="spec-requests-jobs_spec_rb.html">spec/requests/jobs_spec.rb</a></td>
+              <td class='right_align'><tt>12</tt></td>
+              <td class='right_align'><tt>10</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:50px"></div>
+            <div class="uncovered" style="width:50px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:50px"></div>
+            <div class="uncovered" style="width:50px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests odd">
+              <td class="left_align"><a href="spec-requests-jobseekers_spec_rb.html">spec/requests/jobseekers_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests even">
+              <td class="left_align"><a href="spec-requests-sectors_spec_rb.html">spec/requests/sectors_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests odd">
+              <td class="left_align"><a href="spec-requests-trainings_spec_rb.html">spec/requests/trainings_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests even">
+              <td class="left_align"><a href="spec-requests-unemployeds_spec_rb.html">spec/requests/unemployeds_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec requests odd">
+              <td class="left_align"><a href="spec-requests-users_spec_rb.html">spec/requests/users_spec.rb</a></td>
+              <td class='right_align'><tt>11</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing even">
+              <td class="left_align"><a href="spec-routing-agents_routing_spec_rb.html">spec/routing/agents_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing odd">
+              <td class="left_align"><a href="spec-routing-applicants_routing_spec_rb.html">spec/routing/applicants_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing even">
+              <td class="left_align"><a href="spec-routing-bussiness_agents_routing_spec_rb.html">spec/routing/bussiness_agents_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing odd">
+              <td class="left_align"><a href="spec-routing-companies_routing_spec_rb.html">spec/routing/companies_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing even">
+              <td class="left_align"><a href="spec-routing-jobs_routing_spec_rb.html">spec/routing/jobs_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing odd">
+              <td class="left_align"><a href="spec-routing-jobseekers_routing_spec_rb.html">spec/routing/jobseekers_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing even">
+              <td class="left_align"><a href="spec-routing-sectors_routing_spec_rb.html">spec/routing/sectors_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing odd">
+              <td class="left_align"><a href="spec-routing-trainings_routing_spec_rb.html">spec/routing/trainings_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing even">
+              <td class="left_align"><a href="spec-routing-unemployeds_routing_spec_rb.html">spec/routing/unemployeds_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec routing odd">
+              <td class="left_align"><a href="spec-routing-users_routing_spec_rb.html">spec/routing/users_routing_spec.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec even">
+              <td class="left_align"><a href="spec-spec_helper_rb.html">spec/spec_helper.rb</a></td>
+              <td class='right_align'><tt>27</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views agents odd">
+              <td class="left_align"><a href="spec-views-agents-edit_html_erb_spec_rb.html">spec/views/agents/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>22</tt></td>
+              <td class='right_align'><tt>18</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views agents even">
+              <td class="left_align"><a href="spec-views-agents-index_html_erb_spec_rb.html">spec/views/agents/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>28</tt></td>
+              <td class='right_align'><tt>23</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 90 100 spec views agents odd">
+              <td class="left_align"><a href="spec-views-agents-new_html_erb_spec_rb.html">spec/views/agents/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>22</tt></td>
+              <td class='right_align'><tt>18</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.91%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:91px"></div>
+            <div class="uncovered" style="width:9px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>88.89%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:89px"></div>
+            <div class="uncovered" style="width:11px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views agents even">
+              <td class="left_align"><a href="spec-views-agents-show_html_erb_spec_rb.html">spec/views/agents/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>21</tt></td>
+              <td class='right_align'><tt>16</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views applicants odd">
+              <td class="left_align"><a href="spec-views-applicants-edit_html_erb_spec_rb.html">spec/views/applicants/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>31</tt></td>
+              <td class='right_align'><tt>27</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>22.58%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:23px"></div>
+            <div class="uncovered" style="width:77px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>18.52%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:19px"></div>
+            <div class="uncovered" style="width:81px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views applicants even">
+              <td class="left_align"><a href="spec-views-applicants-index_html_erb_spec_rb.html">spec/views/applicants/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>45</tt></td>
+              <td class='right_align'><tt>36</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>15.56%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:16px"></div>
+            <div class="uncovered" style="width:84px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>13.89%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:14px"></div>
+            <div class="uncovered" style="width:86px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views applicants odd">
+              <td class="left_align"><a href="spec-views-applicants-new_html_erb_spec_rb.html">spec/views/applicants/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>31</tt></td>
+              <td class='right_align'><tt>27</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>22.58%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:23px"></div>
+            <div class="uncovered" style="width:77px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>18.52%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:19px"></div>
+            <div class="uncovered" style="width:81px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views applicants even">
+              <td class="left_align"><a href="spec-views-applicants-show_html_erb_spec_rb.html">spec/views/applicants/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>33</tt></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views bussiness_agents odd">
+              <td class="left_align"><a href="spec-views-bussiness_agents-edit_html_erb_spec_rb.html">spec/views/bussiness_agents/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>28</tt></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views bussiness_agents even">
+              <td class="left_align"><a href="spec-views-bussiness_agents-index_html_erb_spec_rb.html">spec/views/bussiness_agents/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>40</tt></td>
+              <td class='right_align'><tt>32</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 100 spec views bussiness_agents odd">
+              <td class="left_align"><a href="spec-views-bussiness_agents-new_html_erb_spec_rb.html">spec/views/bussiness_agents/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>28</tt></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.86%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:93px"></div>
+            <div class="uncovered" style="width:7px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>91.67%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views bussiness_agents even">
+              <td class="left_align"><a href="spec-views-bussiness_agents-show_html_erb_spec_rb.html">spec/views/bussiness_agents/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>30</tt></td>
+              <td class='right_align'><tt>22</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views companies odd">
+              <td class="left_align"><a href="spec-views-companies-edit_html_erb_spec_rb.html">spec/views/companies/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>33</tt></td>
+              <td class='right_align'><tt>29</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>21.21%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:21px"></div>
+            <div class="uncovered" style="width:79px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>17.24%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:17px"></div>
+            <div class="uncovered" style="width:83px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views companies even">
+              <td class="left_align"><a href="spec-views-companies-index_html_erb_spec_rb.html">spec/views/companies/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>49</tt></td>
+              <td class='right_align'><tt>39</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>14.29%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:14px"></div>
+            <div class="uncovered" style="width:86px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>12.82%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:13px"></div>
+            <div class="uncovered" style="width:87px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views companies odd">
+              <td class="left_align"><a href="spec-views-companies-new_html_erb_spec_rb.html">spec/views/companies/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>33</tt></td>
+              <td class='right_align'><tt>29</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>21.21%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:21px"></div>
+            <div class="uncovered" style="width:79px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>17.24%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:17px"></div>
+            <div class="uncovered" style="width:83px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views companies even">
+              <td class="left_align"><a href="spec-views-companies-show_html_erb_spec_rb.html">spec/views/companies/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>37</tt></td>
+              <td class='right_align'><tt>27</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>18.92%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:19px"></div>
+            <div class="uncovered" style="width:81px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>18.52%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:19px"></div>
+            <div class="uncovered" style="width:81px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 30 40 50 60 70 80 90 100 spec views jobs odd">
+              <td class="left_align"><a href="spec-views-jobs-edit_html_erb_spec_rb.html">spec/views/jobs/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>25</tt></td>
+              <td class='right_align'><tt>21</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>28.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:28px"></div>
+            <div class="uncovered" style="width:72px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>23.81%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:24px"></div>
+            <div class="uncovered" style="width:76px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 20 30 40 50 60 70 80 90 100 spec views jobs even">
+              <td class="left_align"><a href="spec-views-jobs-index_html_erb_spec_rb.html">spec/views/jobs/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>33</tt></td>
+              <td class='right_align'><tt>27</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>21.21%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:21px"></div>
+            <div class="uncovered" style="width:79px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>18.52%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:19px"></div>
+            <div class="uncovered" style="width:81px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 30 40 50 60 70 80 90 100 spec views jobs odd">
+              <td class="left_align"><a href="spec-views-jobs-new_html_erb_spec_rb.html">spec/views/jobs/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>25</tt></td>
+              <td class='right_align'><tt>21</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>28.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:28px"></div>
+            <div class="uncovered" style="width:72px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>23.81%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:24px"></div>
+            <div class="uncovered" style="width:76px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 30 40 50 60 70 80 90 100 spec views jobs even">
+              <td class="left_align"><a href="spec-views-jobs-show_html_erb_spec_rb.html">spec/views/jobs/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>25</tt></td>
+              <td class='right_align'><tt>19</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>28.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:28px"></div>
+            <div class="uncovered" style="width:72px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>26.32%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:26px"></div>
+            <div class="uncovered" style="width:74px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views jobseekers odd">
+              <td class="left_align"><a href="spec-views-jobseekers-edit_html_erb_spec_rb.html">spec/views/jobseekers/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views jobseekers even">
+              <td class="left_align"><a href="spec-views-jobseekers-index_html_erb_spec_rb.html">spec/views/jobseekers/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>32</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 100 spec views jobseekers odd">
+              <td class="left_align"><a href="spec-views-jobseekers-new_html_erb_spec_rb.html">spec/views/jobseekers/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>91.67%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:90px"></div>
+            <div class="uncovered" style="width:10px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views jobseekers even">
+              <td class="left_align"><a href="spec-views-jobseekers-show_html_erb_spec_rb.html">spec/views/jobseekers/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>18</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views sectors odd">
+              <td class="left_align"><a href="spec-views-sectors-edit_html_erb_spec_rb.html">spec/views/sectors/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class='right_align'><tt>16</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views sectors even">
+              <td class="left_align"><a href="spec-views-sectors-index_html_erb_spec_rb.html">spec/views/sectors/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 90 100 spec views sectors odd">
+              <td class="left_align"><a href="spec-views-sectors-new_html_erb_spec_rb.html">spec/views/sectors/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class='right_align'><tt>16</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:90px"></div>
+            <div class="uncovered" style="width:10px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>87.50%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:88px"></div>
+            <div class="uncovered" style="width:12px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views sectors even">
+              <td class="left_align"><a href="spec-views-sectors-show_html_erb_spec_rb.html">spec/views/sectors/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>18</tt></td>
+              <td class='right_align'><tt>14</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views trainings odd">
+              <td class="left_align"><a href="spec-views-trainings-edit_html_erb_spec_rb.html">spec/views/trainings/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>22</tt></td>
+              <td class='right_align'><tt>18</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views trainings even">
+              <td class="left_align"><a href="spec-views-trainings-index_html_erb_spec_rb.html">spec/views/trainings/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>28</tt></td>
+              <td class='right_align'><tt>23</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 90 100 spec views trainings odd">
+              <td class="left_align"><a href="spec-views-trainings-new_html_erb_spec_rb.html">spec/views/trainings/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>22</tt></td>
+              <td class='right_align'><tt>18</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.91%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:91px"></div>
+            <div class="uncovered" style="width:9px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>88.89%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:89px"></div>
+            <div class="uncovered" style="width:11px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views trainings even">
+              <td class="left_align"><a href="spec-views-trainings-show_html_erb_spec_rb.html">spec/views/trainings/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>21</tt></td>
+              <td class='right_align'><tt>16</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views unemployeds odd">
+              <td class="left_align"><a href="spec-views-unemployeds-edit_html_erb_spec_rb.html">spec/views/unemployeds/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class='right_align'><tt>22</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views unemployeds even">
+              <td class="left_align"><a href="spec-views-unemployeds-index_html_erb_spec_rb.html">spec/views/unemployeds/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>36</tt></td>
+              <td class='right_align'><tt>29</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 100 spec views unemployeds odd">
+              <td class="left_align"><a href="spec-views-unemployeds-new_html_erb_spec_rb.html">spec/views/unemployeds/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class='right_align'><tt>22</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.31%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.91%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:91px"></div>
+            <div class="uncovered" style="width:9px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views unemployeds even">
+              <td class="left_align"><a href="spec-views-unemployeds-show_html_erb_spec_rb.html">spec/views/unemployeds/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>27</tt></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views users odd">
+              <td class="left_align"><a href="spec-views-users-edit_html_erb_spec_rb.html">spec/views/users/edit.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views users even">
+              <td class="left_align"><a href="spec-views-users-index_html_erb_spec_rb.html">spec/views/users/index.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>32</tt></td>
+              <td class='right_align'><tt>26</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 100 spec views users odd">
+              <td class="left_align"><a href="spec-views-users-new_html_erb_spec_rb.html">spec/views/users/new.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>91.67%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:90px"></div>
+            <div class="uncovered" style="width:10px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage 110 spec views users even">
+              <td class="left_align"><a href="spec-views-users-show_html_erb_spec_rb.html">spec/views/users/show.html.erb_spec.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>18</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    
+    <p>Generated on Sat Jan 29 19:23:22 +0100 2011 with <a href="http://github.com/relevance/rcov">rcov 0.9.8</a></p>
+
+    <script type="text/javascript">
+      $(document).ready(function(){$("#report_table").tablesorter({widgets: ['zebra'], textExtraction: 'complex'});});
+      $('.filter').change(function(){
+        ff = $('#file_filter').val();
+        cf = $('#coverage_filter').val();
+        $('table#report_table tbody tr').each(function(i){ 
+          if ((this.className.split(" ").indexOf(ff) > -1) && (this.className.split(" ").indexOf(cf) > -1)) {
+            this.style.display = "";
+          } else {
+            this.style.display = "none";
+          };
+          restripe();
+        })
+      })
+    </script>
+
+  </body>
+</html>

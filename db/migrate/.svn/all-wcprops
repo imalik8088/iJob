@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/fbi/ewam/team7/!svn/ver/66/iJob/db/migrate
+END
+20101208171233_remove_readd_city_typ.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fbi/ewam/team7/!svn/ver/64/iJob/db/migrate/20101208171233_remove_readd_city_typ.rb
+END
+20101117171521_create_applicants.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fbi/ewam/team7/!svn/ver/35/iJob/db/migrate/20101117171521_create_applicants.rb
+END
+20101201175459_add_agent_id_to_company.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fbi/ewam/team7/!svn/ver/58/iJob/db/migrate/20101201175459_add_agent_id_to_company.rb
+END
+20101117173503_create_jobs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/fbi/ewam/team7/!svn/ver/40/iJob/db/migrate/20101117173503_create_jobs.rb
+END
+20101124171450_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fbi/ewam/team7/!svn/ver/45/iJob/db/migrate/20101124171450_create_users.rb
+END
+20101124173742_create_jobseekers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fbi/ewam/team7/!svn/ver/49/iJob/db/migrate/20101124173742_create_jobseekers.rb
+END
+20101124172139_create_trainings.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fbi/ewam/team7/!svn/ver/47/iJob/db/migrate/20101124172139_create_trainings.rb
+END
+20101117171341_create_unemployeds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fbi/ewam/team7/!svn/ver/35/iJob/db/migrate/20101117171341_create_unemployeds.rb
+END
+20101208175432_remove_company_from_agent.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fbi/ewam/team7/!svn/ver/66/iJob/db/migrate/20101208175432_remove_company_from_agent.rb
+END
+20101201175326_add_id_to_jobseeker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fbi/ewam/team7/!svn/ver/59/iJob/db/migrate/20101201175326_add_id_to_jobseeker.rb
+END
+20101124174308_new_adress_fields_buisness_agents.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fbi/ewam/team7/!svn/ver/49/iJob/db/migrate/20101124174308_new_adress_fields_buisness_agents.rb
+END
+20101201171917_add_ruby_svn_to_applicants.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fbi/ewam/team7/!svn/ver/56/iJob/db/migrate/20101201171917_add_ruby_svn_to_applicants.rb
+END
+20101201171346_create_sectors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/fbi/ewam/team7/!svn/ver/56/iJob/db/migrate/20101201171346_create_sectors.rb
+END
+20101201173756_create_companies.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fbi/ewam/team7/!svn/ver/57/iJob/db/migrate/20101201173756_create_companies.rb
+END
+20101117172139_create_bussiness_agents.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fbi/ewam/team7/!svn/ver/40/iJob/db/migrate/20101117172139_create_bussiness_agents.rb
+END
+20101201173946_create_agents.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fbi/ewam/team7/!svn/ver/57/iJob/db/migrate/20101201173946_create_agents.rb
+END
+20101208170850_add_company_to_job.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fbi/ewam/team7/!svn/ver/62/iJob/db/migrate/20101208170850_add_company_to_job.rb
+END

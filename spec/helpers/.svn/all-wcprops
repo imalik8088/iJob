@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers
+END
+unemployeds_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/unemployeds_helper_spec.rb
+END
+jobseekers_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/jobseekers_helper_spec.rb
+END
+jobs_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/jobs_helper_spec.rb
+END
+applicants_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/applicants_helper_spec.rb
+END
+companies_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/companies_helper_spec.rb
+END
+trainings_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/trainings_helper_spec.rb
+END
+bussiness_agents_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/bussiness_agents_helper_spec.rb
+END
+agents_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/agents_helper_spec.rb
+END
+users_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/users_helper_spec.rb
+END
+sectors_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fbi/ewam/team7/!svn/ver/75/iJob/spec/helpers/sectors_helper_spec.rb
+END
